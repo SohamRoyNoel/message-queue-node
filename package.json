@@ -1,0 +1,30 @@
+{
+  "name": "message-queue",
+  "version": "1.0.0",
+  "description": "node redis message queue",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv-safe/config -r esm ./src/server.js"
+  },
+  "keywords": [
+    "Node",
+    "message-queue",
+    "redis"
+  ],
+  "author": "Soham Roy",
+  "license": "MIT",
+  "dependencies": {
+    "bull": "^3.29.3",
+    "dotenv-safe": "^8.2.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "ioredis": "^4.28.0",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}
